@@ -1,0 +1,100 @@
+
+#canvas {
+    background-color: rgb(194, 247, 229);
+    border-radius: 50%;
+}
+#time {
+    color: lightcoral;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -200%);
+}
+.canvas {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.num {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 50%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.center {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.number12 {
+   font-size: xx-large  ;
+}
+
+.number1 {
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+.number2 {
+    transform: translate(-50%, -50%) rotate(60deg);
+}
+
+.number3 {
+    font-size: xx-large;
+
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number4 {
+    transform: translate(-50%, -50%) rotate(120deg);
+}
+
+.number5 {
+    transform: translate(-50%, -50%) rotate(150deg);
+}
+
+.number6 {
+    font-size: xx-large;
+
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.number7 {
+    transform: translate(-50%, -50%) rotate(210deg);
+}
+
+.number8 {
+    transform: translate(-50%, -50%) rotate(240deg);
+}
+
+.number9 {
+    font-size: xx-large;
+
+    transform: translate(-50%, -50%) rotate(270deg);
+}
+
+.number10 {
+    transform: translate(-50%, -50%) rotate(300deg);
+}
+
+.number11 {
+    transform: translate(-50%, -50%) rotate(330deg);
+}
